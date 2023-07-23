@@ -166,6 +166,10 @@ section {
   transform: scale(0.9);
 }
 
+.myskill-text i {
+  height: 75px;
+}
+
 .about {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -390,7 +394,6 @@ section {
 .contact-icons i {
   height: 45px;
   width: 45px;
-
   font-size: 22px;
   display: inline-block;
   align-items: center;
@@ -457,13 +460,16 @@ form textarea {
 
 }
 
-.top i {
+.top {
+
   padding: 10px;
   border-radius: 8px;
   font-size: 15px;
   color: var(--text-color);
   background: var(--main-color);
+  justify-content: flex-end;
 }
+
 
 @media (max-width: 1480px) {
   header {
@@ -545,7 +551,7 @@ form textarea {
     color: var(--main-color);
   }
 
-  navlist a.active {
+  .navlist a.active {
     color: var(--text-color);
   }
 
