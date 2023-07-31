@@ -39,14 +39,10 @@ header {
   padding: 22px 15%;
   border-bottom: 1px solid transparent;
   transition: all .45s ease;
+  background-color: ;
 }
 
-.logo {
-  color: var(--text-color);
-  font-size: 35px;
-  font-weight: 700;
-  letter-spacing: 1px;
-}
+
 
 span {
   color: var(--main-color);
@@ -79,6 +75,7 @@ span {
   cursor: pointer;
   margin-left: 25px;
   display: none;
+
 }
 
 section {
@@ -147,7 +144,7 @@ section {
 .button {
   display: inline-block;
   align-items: center;
-  justify-content: right;
+  justify-content: center;
 }
 
 .btn {
@@ -165,31 +162,6 @@ section {
 .btn:hover {
   transform: scale(0.9);
 }
-
-.grid-container {
-  display: grid;
-  grid-template-columns: auto auto auto;
-  background-color: #2196F3;
-  padding: 10px;
-}
-
-.grid-container:hover {
-  transform: translateY(-8px);
-  cursor: pointer;
-}
-
-.grid-container p {
-  color: black;
-}
-
-.grid-item {
-  background-color: rgba(255, 255, 255, 0.8);
-  border: 1px solid rgba(0, 0, 0, 0.8);
-  padding: 20px;
-  font-size: 30px;
-  text-align: center;
-}
-
 
 .about {
   display: grid;
@@ -273,7 +245,6 @@ section {
   font-weight: 600;
   color: var(--text-color);
   margin-bottom: 15px;
-  height: 45px;
 }
 
 .box p {
@@ -415,6 +386,7 @@ section {
 .contact-icons i {
   height: 45px;
   width: 45px;
+  color: var(--text-color);
   font-size: 22px;
   display: inline-block;
   align-items: center;
@@ -481,16 +453,13 @@ form textarea {
 
 }
 
-.top {
-
+.top i {
   padding: 10px;
   border-radius: 8px;
   font-size: 15px;
   color: var(--text-color);
   background: var(--main-color);
-  justify-content: flex-end;
 }
-
 
 @media (max-width: 1480px) {
   header {
@@ -572,7 +541,7 @@ form textarea {
     color: var(--main-color);
   }
 
-  .navlist a.active {
+  navlist a.active {
     color: var(--text-color);
   }
 
